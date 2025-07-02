@@ -1,0 +1,14 @@
+HTMl - content
+meaning -
+Hypertext Markup Language
+
+CSS
+3 types of css
+inline-code html- code css
+internal- html code- page
+external- df---file
+
+
+font-family: "Ubuntu", sans-serif;
+
+font-family: "Playfair Display", serif;
