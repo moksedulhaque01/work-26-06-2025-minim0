@@ -1,0 +1,250 @@
+/*common css start */
+body{
+margin: 0;
+font-family: "playfair display", serif;
+font-size: 16px;
+font-weight: 400;
+color: #626262;
+}
+/* common css end */
+/* header start */
+header{
+	padding: 30px 0;
+	/*border: 1px solid red;*/
+}
+.container{
+	width: 84%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 15px;
+	width: 12%;
+	/* border: 1px solid red; */
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+		list-style: none;
+		float: left;
+}
+.menu ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0 45px;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: .33s linear;
+	color: #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/* banner start */
+.banner{}
+.banner_img{}
+.banner_img img{
+	width: 100%;
+}
+/* banner end */
+/*getaway start*/
+.getaway{
+	padding: 100px 0 20px;
+}
+.container2{
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.g_content{}
+.c_light{
+	margin: 0;
+	font-family: "ubuntu", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	line-height: 24px;
+}
+.g_link{
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration:none;
+	color: #626262;
+}
+/*getaway end*/
+/* blog start */
+.blog{
+	padding: 0 0 100px;
+}
+.sb_item{
+	margin-top: 80px;
+	width: 47%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.sb_img{
+	margin-bottom: 20px;
+}
+.sb_item img{
+	width: 100%;
+}
+.sb_item:nth-child(even){
+	/*background-color: red;*/
+	margin-left: 6%;
+}
+/* blog end */
+/* newsletter start */
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	width: 400px;
+	/*border: 5px solid red;*/
+	margin: 0 auto;
+	position: relative;
+}
+.s_form input{
+	font-family: 'playfair display', serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{}
+/* newsletter end */
+/* blog2 start */
+.blog2{
+	padding-top: 20px;
+}
+.load{
+	padding: 100px 0 50px;
+	text-align: center;
+}
+.load button{
+	width: 160px;
+	height: 60px;
+	background-color: white;
+	border: 2px solid #626262;
+	font-family: "playfair display", serif;
+	font-size: 20px;
+	font-weight: 400;
+	cursor: pointer;
+	transition: .33s linear;
+}
+.load button:hover{
+	background-color: #626262;
+	color: white;
+}
+/* blog2 end */
+/* footer start */
+footer{
+	padding: 25px 0;
+    background-color: #f0f0f0;
+	/border: 1px solid red;/
+}
+.container{
+}
+.page{
+	float: left;
+	width: 40%;
+	/*border: 1px solid yellow;*/
+}
+.page ul{
+	float: left;
+}
+.page ul li{
+	list-style: none;
+	 float: left;
+}
+.social ul li span {
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #0f2656;
+}
+.page ul li a{
+	margin: 0 20px;
+	text-decoration: none;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: 700;
+	color: #0f2656;
+}
+.page ul li a:first-child a {
+	margin-left: 0;
+}
+.social{
+	float: right;
+	width: 19%;
+	/*border: 1px solid yellow;*/
+}
+.social ul{
+	list-style: none;
+	text-decoration: none;
+}
+.social ul li{
+	float: left;
+	list-style: none;
+}
+.social ul li a{
+	margin: 0 20px;
+	text-decoration: none;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: 700;
+	color: #0f2656;
+}
+.social ul li a:last-child{
+	margin-right: 0;
+}
